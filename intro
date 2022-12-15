@@ -1,0 +1,32 @@
+whai is react: a js library for building user interface,   declarative   (declarative programming is when your code shows what you want to happen.
+Imperative programming your code shows exactly how to do what you want to happen.)  ,component base 
+
+just dont get overwhelmed with the vocabulary 
+
+1)install react version , npm install -g create-react-app@2.2.2
+2)now create a folder for app let say React by, mkdir React, in cmd prompt
+3)now create a app name confusion by, create-react-app confusion,
+4)now npm start, it start ur web app at localhost:3000
+
+You can initialize your project to be a Git repository by typing the following commands 
+at the prompt:
+1)git init
+2)git add .
+3)git commit -m "Initial Setup"
+
+
+
+
+//now kam kaz and internal implementation of react app
+1)app is rendered using ReactDOM...see index.js :
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>
+  
+  2)where is it rendered?...see index.html:
+  <div id="root"></div>
+  above is root DOM node
+  
+  

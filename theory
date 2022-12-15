@@ -1,8 +1,0 @@
-whai is react: a js library for building user interface,   declarative   (declarative programming is when your code shows what you want to happen.
-Imperative programming your code shows exactly how to do what you want to happen.)  ,component base 
-
-just dont get overwhelmed with the vocabulary 
-
-1)install react version = npm install -g create-react-app@2.2.2
-2)now create a folder for app let say React by, mkdir React, in cmd prompt
-3)now create a app name confusion by, create-react-app confusion,
